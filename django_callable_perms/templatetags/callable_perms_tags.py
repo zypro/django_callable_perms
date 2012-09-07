@@ -11,6 +11,7 @@ class ObjectPermissionsNode(template.Node):
         self.as_var = as_var
     
     def render(self, context):
+        # TODO: Test if self.as_var already in context, reuse if possible (has same details)
         try:
             obj = self.obj.resolve(context)
             user = self.user.resolve(context)
