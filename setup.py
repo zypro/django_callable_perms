@@ -14,8 +14,8 @@ setup(
         'django_callable_perms.management.commands',
         'django_callable_perms.templatetags',
     ],
-    requires = [
-        'django(>=1.4)',
+    install_requires = [
+        'Django >=1.4',
     ],
     classifiers=[
         'Development Status :: 4 - Beta',
