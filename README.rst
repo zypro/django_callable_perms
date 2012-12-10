@@ -88,6 +88,6 @@ sync_permissions
 ++++++++++++++++
 
 Management command to create all app permission inside the database. May be
-used to initialize the database. Will not (meaning never) ass more than the
+used to initialize the database. Will not (meaning never) add more than the
 default Django permissions.
 
