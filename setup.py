@@ -2,12 +2,12 @@ from setuptools import setup, find_packages
 
 setup(
     name = "django_callable_perms",
-    version = "0.1.0-2",
+    version = "0.1.0-3",
     description = 'Modular registry of permission handlers for Django',
     author = 'David Danier',
     author_email = 'david.danier@team23.de',
     url = 'https://github.com/ddanier/django_callable_perms',
-    long_description=open('README.rst', 'r').read(),
+    long_description = open('README.rst', 'r').read(),
     packages = [
         'django_callable_perms',
         'django_callable_perms.management',
