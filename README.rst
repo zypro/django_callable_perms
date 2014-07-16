@@ -69,9 +69,9 @@ the new permissions.
 Installation
 ============
 
-Add django_callable_perms to INSTALLED_APPS (for autoloading) and add
-django_callable_perms.backend.CallablePermissionBackend to your
-AUTHENTICATION_BACKENDS.
+Add ``django_callable_perms`` to ``INSTALLED_APPS`` (for autoloading) and add
+``django_callable_perms.backends.CallablePermissionBackend`` to your
+``AUTHENTICATION_BACKENDS``.
 
 Make sure to put django_callable_perms into your Python PATH first, of
 course.
